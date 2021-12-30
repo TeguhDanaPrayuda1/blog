@@ -2,40 +2,19 @@ import React from 'react';
 
 const Content = () => {
     return (
-        <div className="w-full h-full p-10 bg-gray-300/50">
-            <div className="px-10 leading-relaxed bg-white rounded shadow-xl shadow-gray-400">
-                <div className="">
-                    {/* <div>
-                        <a
-                            href="/"
-                            className="mr-2 text-gray-400 hover:text-gray-500"
-                        >
-                            Home
-                        </a>
-                        <span className="mr-2 text-gray-400 hover:text-gray-500">
-                            /
-                        </span>
-                        <a
-                            href="/"
-                            className="text-gray-400 hover:text-gray-500"
-                        >
-                            Blog
-                        </a>
-                    </div> */}
-                    <div className="pt-8 pb-2 text-3xl font-semibold text-center">
-                        Kibarkan Bendera Cina, Bagansiapi-Api Berubah Jadi
-                        Lautan Api
-                    </div>
-                    <div className="pb-4 text-center border-b border-gray-300 opacity-80">
-                        By{' '}
-                        <span className="text-blue-500">
-                            Gusti Riza Pradana{' '}
-                        </span>
-                        - Desember 26, 2021
-                    </div>
+        <div className="w-full p-4 h-max md:p-10 bg-gray-300/40">
+            <div className="w-full px-4 leading-relaxed bg-white rounded-lg shadow-xl h-max md:px-10 ">
+                <div className="pt-8 pb-2 text-2xl font-semibold text-center md:text-3xl">
+                    Kibarkan Bendera Cina, Bagansiapi-Api Berubah Jadi Lautan
+                    Api
                 </div>
-                <div className="flex flex-col w-full py-4 md:px-8 md:py-10">
-                    <div className="flex flex-col justify-between h-56 mb-8 md:flex-row">
+                <div className="pb-4 text-sm text-center border-b border-gray-300 md:text-normal opacity-80">
+                    By{' '}
+                    <span className="text-blue-500">Gusti Riza Pradana </span>-
+                    Desember 26, 2021
+                </div>
+                <div className="flex flex-col w-full py-4 h-max md:px-8 md:py-10">
+                    <div className="flex flex-col justify-between mb-5 h-max md:flex-row">
                         <img
                             src="reza1.jpeg"
                             alt=""
@@ -52,7 +31,7 @@ const Content = () => {
                             className="object-cover object-center md:w-1/3"
                         />
                     </div>
-                    <p className="flex font-serif text-sm leading-7 mt-72 md:mt-0 md:text-lg">
+                    <p className="flex font-serif text-sm leading-7 md:text-lg ">
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Banyak
                         yang tidak tahu bahwa di Provinsi Riau ada peristiwa
                         seperti Bandung Lautan Api, di Jawa Barat, dalam
