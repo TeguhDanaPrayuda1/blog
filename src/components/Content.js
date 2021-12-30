@@ -2,28 +2,30 @@ import React from 'react';
 
 const Content = () => {
     return (
-        <div className="w-full p-4 h-max md:p-10 bg-gray-300/40">
-            <div className="w-full px-4 leading-relaxed bg-white rounded-lg shadow-xl h-max md:px-10 ">
+        <div className="w-full p-4 select-none h-max md:p-10 bg-gray-300/80">
+            <div className="w-full px-4 leading-relaxed bg-white rounded-lg shadow-xl shadow-gray-400 h-max md:px-10 ">
                 <div className="pt-8 pb-2 text-2xl font-semibold text-center md:text-3xl">
-                    Kibarkan Bendera Cina, Bagansiapi-Api Berubah Jadi Lautan
+                    Kibarkan Bendera Cina, Bagansiapi - Api Berubah Jadi Lautan
                     Api
                 </div>
-                <div className="pb-4 text-sm text-center border-b border-gray-300 md:text-normal opacity-80">
+                <div className="pb-4 text-sm text-center border-b border-gray-300 opacity-80 md:text-normal">
                     By{' '}
-                    <span className="text-blue-500">Gusti Riza Pradana </span>-
-                    Desember 26, 2021
+                    <span className="text-blue-500 hover:underline hover:decoration-wavy hover:decoration-blue-700/50 animate-pulse">
+                        Gusti Riza Pradana{' '}
+                    </span>
+                    - Desember 26, 2021
                 </div>
                 <div className="flex flex-col w-full py-4 h-max md:px-8 md:py-10">
                     <div className="flex flex-col justify-between mb-5 h-max md:flex-row">
                         <img
                             src="reza1.jpeg"
                             alt=""
-                            className="object-cover object-center mb-4 md:mb-0 md:w-1/3"
+                            className="object-cover object-center mb-4 md:mb-0 md:mr-4 md:w-1/3"
                         />
                         <img
                             src="reza2.jpeg"
                             alt=""
-                            className="object-cover object-center mb-4 md:mb-0 md:w-1/3"
+                            className="object-cover object-center mb-4 md:mb-0 md:mr-4 md:w-1/3"
                         />
                         <img
                             src="reza3.jpeg"
@@ -31,7 +33,7 @@ const Content = () => {
                             className="object-cover object-center md:w-1/3"
                         />
                     </div>
-                    <p className="flex font-serif text-sm leading-7 md:text-lg ">
+                    <p className="flex font-serif leading-7 text-md md:text-lg ">
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Banyak
                         yang tidak tahu bahwa di Provinsi Riau ada peristiwa
                         seperti Bandung Lautan Api, di Jawa Barat, dalam
@@ -59,7 +61,7 @@ const Content = () => {
                         Perang Dunia II bersama Sekutu. Sehingga mereka ingin
                         menjadikan Bagansiapi-api sebagai bagian negara mereka.
                     </p>
-                    <p className="flex font-serif text-sm leading-7 md:text-lg">
+                    <p className="flex font-serif leading-7 text-md md:text-lg">
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tentu
                         saja keinginan tersebut tidak dapat diterima oleh para
                         pemuda Indonesia di Bagansiapi-api dan ini memicu
