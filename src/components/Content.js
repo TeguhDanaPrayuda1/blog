@@ -3,7 +3,7 @@ import React from 'react';
 const Content = () => {
     return (
         <div className="w-full p-4 select-none h-max md:p-10 bg-gray-300/80">
-            <div className="w-full px-4 leading-relaxed bg-white rounded-lg shadow-xl shadow-gray-400 h-max md:px-10 ">
+            <div className="w-full px-4 leading-relaxed bg-white rounded shadow-xl shadow-gray-400 h-max md:px-10 ">
                 <div className="pt-8 pb-2 text-2xl font-semibold text-center md:text-3xl">
                     Kibarkan Bendera Cina, Bagansiapi - Api Berubah Jadi Lautan
                     Api
