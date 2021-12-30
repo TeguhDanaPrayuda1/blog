@@ -5,7 +5,7 @@ const About = () => {
     return (
         <div>
             <Navbar />
-            <div className="block w-full py-10 mx-auto select-none md:flex md:py-20 md:px-56 h-max bg-gray-300/80">
+            <div className="w-screen py-10 mx-auto select-none h-max md:flex md:py-20 md:px-56">
                 <div className="flex w-full h-max">
                     <img
                         src="/gusti.jpg"
