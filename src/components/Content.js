@@ -33,7 +33,7 @@ const Content = () => {
                             className="object-cover object-center md:w-1/3"
                         />
                     </div>
-                    <p className="flex font-serif text-sm leading-7 prose text-justify md:text-3xl md:prose-2xl">
+                    <p className="flex font-serif leading-7 prose text-justify md:text-3xl md:prose-2xl">
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Banyak
                         yang tidak tahu bahwa di Provinsi Riau ada peristiwa
                         seperti Bandung Lautan Api, di Jawa Barat, dalam
