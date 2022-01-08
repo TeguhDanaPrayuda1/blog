@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         // <BrowserRouter>
         // <Fragment>
-        <div className="mx-auto bg-blue-500/95">
+        <div className="fixed w-screen bg-blue-500/90">
             <div className="block md:flex md:justify-between">
                 <div className="flex justify-between px-4 py-4 border-b border-blue-400 md:border-0">
                     <div>
@@ -55,7 +55,7 @@ const Navbar = () => {
                     </Link>
                     <Link
                         to="/About"
-                        className="block px-4 py-3 leading-normal text-white duration-300 transform hover:text-blue-200 md:pr-4 md:py-4"
+                        className="block px-4 py-3 leading-normal text-white duration-300 transform hover:text-blue-200 md:pr-4 md:py-4 md:mr-4"
                     >
                         About
                     </Link>

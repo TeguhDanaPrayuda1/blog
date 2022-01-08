@@ -15,22 +15,33 @@ const Content = () => {
                     </span>
                     Januari 08, 2022
                 </div>
-                <div className="flex flex-col w-full py-4 snap-x h-max md:px-8 md:py-10">
-                    <div className="flex flex-col justify-between mb-5 snap-center h-max md:flex-row">
+                <div className="flex flex-col w-full py-4 h-max md:px-8 md:py-10">
+                    <div className="flex flex-col justify-between mb-5 h-max md:flex-row">
                         <img
-                            src="Picture2.png"
+                            title="Naskah Asli Gurindam Dua Belas Koleksi Perpustakaan Nasional Republik Indonesia Nomor Koleksi W 233 (Foto: SR)"
+                            src="S1.png"
                             alt=""
-                            className="object-cover object-center mb-4 md:mb-0 md:mr-4 md:w-1/3"
+                            className="object-cover object-center mb-4 md:mb-0 md:mr-4 md:w-1/2"
                         />
                         <img
-                            src="Picture3.png"
+                            title="Salinan Naskah Gurindam Dua Belas Oleh Afifuddin Untuk Dipamerkan Sempena Festifal Naskah Nusantara IV Pada Tanggal 14-22 September 2018."
+                            src="S2.png"
                             alt=""
-                            className="object-cover object-center mb-4 md:mb-0 md:mr-4 md:w-1/3"
+                            className="object-cover object-center mb-4 md:mb-0 md:mr-4 md:w-1/2"
+                        />
+                    </div>
+                    <div className="flex flex-col justify-between mb-5 h-max md:flex-row">
+                        <img
+                            title="Naskah Asli Gurindam Dua Belas Koleksi Perpustakaan Nasional Republik Indonesia Nomor Koleksi W 233 (Foto: SR)"
+                            src="S3.png"
+                            alt=""
+                            className="object-cover object-center mb-4 md:mb-0 md:mr-4 md:w-1/2"
                         />
                         <img
-                            src="Picture4.png"
+                            title="Salinan Naskah Gurindam Dua Belas Oleh Afifuddin Untuk Dipamerkan Sempena Festifal Naskah Nusantara IV Pada Tanggal 14-22 September 2018."
+                            src="S4.png"
                             alt=""
-                            className="object-cover object-center md:w-1/3"
+                            className="object-cover object-center mb-4 md:mb-0 md:mr-4 md:w-1/2"
                         />
                     </div>
                     <p className="flex font-serif antialiased leading-7 prose text-justify md:text-3xl md:prose-2xl">
