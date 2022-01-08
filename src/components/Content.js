@@ -1,144 +1,274 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Content = () => {
     return (
         <div className="w-full p-2 select-none h-max md:p-10 bg-gray-300/80">
             <div className="w-full px-4 leading-relaxed bg-white rounded shadow-xl shadow-gray-400 h-max md:px-10 ">
-                <div className="pt-8 pb-2 text-2xl font-semibold text-center md:text-5xl">
-                    Kibarkan Bendera Cina, Bagansiapi - Api Berubah Jadi Lautan
-                    Api
+                <div className="pt-8 pb-2 text-2xl antialiased font-semibold text-center md:text-5xl">
+                    GURINDAM DUA BELAS
                 </div>
-                <div className="pb-4 text-sm text-center border-b border-gray-300 opacity-80 md:text-xl">
+                <div className="pb-4 text-sm antialiased text-center border-b border-gray-300 opacity-80 md:text-xl">
                     By{' '}
                     <span className="text-blue-500 hover:underline hover:decoration-wavy hover:decoration-blue-700/50 animate-pulse">
-                        Gusti Riza Pradana{' '}
+                        <Link to="/About">Gusti Riza Pradana</Link>{' '}
                     </span>
-                    - Desember 26, 2021
+                    Januari 08, 2022
                 </div>
-                <div className="flex flex-col w-full py-4 h-max md:px-8 md:py-10">
-                    <div className="flex flex-col justify-between mb-5 h-max md:flex-row">
+                <div className="flex flex-col w-full py-4 snap-x h-max md:px-8 md:py-10">
+                    <div className="flex flex-col justify-between mb-5 snap-center h-max md:flex-row">
                         <img
-                            src="reza1.jpeg"
+                            src="Picture2.png"
                             alt=""
                             className="object-cover object-center mb-4 md:mb-0 md:mr-4 md:w-1/3"
                         />
                         <img
-                            src="reza2.jpeg"
+                            src="Picture3.png"
                             alt=""
                             className="object-cover object-center mb-4 md:mb-0 md:mr-4 md:w-1/3"
                         />
                         <img
-                            src="reza3.jpeg"
+                            src="Picture4.png"
                             alt=""
                             className="object-cover object-center md:w-1/3"
                         />
                     </div>
-                    <p className="flex font-serif leading-7 prose text-justify md:text-3xl md:prose-2xl">
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Banyak
-                        yang tidak tahu bahwa di Provinsi Riau ada peristiwa
-                        seperti Bandung Lautan Api, di Jawa Barat, dalam
-                        perjuangan mempertahankan kemerdekaan dari penjajahan
-                        Belanda, 1945-1949. Itu adalah kejadian Bagansiapi-api
-                        Lautan Api. Bedanya, jika Bandung Lautan Api merupakan
-                        upaya bumi hangus prajurit divisi Siliwangi saat long
-                        march ke Jawa Tengah dan Yogyakarta, maka Bagansiapi-api
-                        Lautan Api antara pejuang Tentara Keamanan Rakyat (TKR)
-                        dengan para kelompok China. Setelah Kemerdekaan
-                        Indonesia di Proklamirkan oleh Ir. Soekarno maka
-                        masyarakat pribumi juga mengibarkan bendera merah putih
-                        di halaman kantor Pos Bagansiapiapi untuk yang pertama
-                        kalinya. Setelah kemerdekaan setiap hari bendera merah
-                        putih dikibarkan di halaman kantor-kantor pemerintahan
-                        di kota ikan itu. Keadaan itu sama sekali tidak
-                        membangkitkan rasa solidaritas orang-orang Cina di kota
-                        itu terhadap orangorang pribumi (Indonesia) mereka tetap
-                        tidak mau tahu mengenai perkembangan keadaan bangsa
-                        Indonesia, apalagi untuk mengakui bahwa Indonesia telah
-                        merdeka. Peristiwa sejarah ini bermula dari keinginan
-                        orang-orang China untuk ambil alih kekuasaan dari
-                        Tentara Keamanan Rakyat (TKR) dan Indonesia. Alasan
-                        mereka, China sebagai sebuah negara merupakan pemenang
-                        Perang Dunia II bersama Sekutu. Sehingga mereka ingin
-                        menjadikan Bagansiapi-api sebagai bagian negara mereka.
+                    <p className="flex font-serif antialiased leading-7 prose text-justify md:text-3xl md:prose-2xl">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gurindam Dua Belas
+                        merupakan salah satu puisi lama yang dtulis dengan
+                        menggunakan aksara arab melayu/jawi, Gurindam Dua Belas
+                        merupakan karya Raja Ali Haji yang sangat terkenal. Raja
+                        Ali Haji diperkirakan hidup antara tahun 1808-1873. Ia
+                        adalah seorang bangsawan, sastrawan, sejarawan,
+                        budayawan, ulama, dll. Ayahnya, Raja Ahmad, adalah
+                        seorang penasihat Kerajaan dan ibunya, Encik Hamidah
+                        binti Panglima Selangor, adalah putri Raja Selangor.
+                        Sedangkan kakeknya bernama Raja Haji Fisabillih.
+                        Berbagai ilmu, seperti agama Islam, adat-istiadat, dan
+                        bahasa Melayu dan Arab, telah dipelajari oleh Raja Ali
+                        Haji. Bakatnya yang menonjol adalah menulis dan ia
+                        sangat berminat pada bidang sejarah, adat-istiadat,
+                        pemerintahan, dan syair. Setelah dewasa, Raja Ali Haji
+                        menuangkan semua yang diketahuinya ke dalam
+                        tulisan-tulisan yang isinya beragam. Karyanya antara
+                        lain Gurindam Dua Belas, Kitab Pengetahuan Bahasa,
+                        Bustanulkatibin (Taman para penulis), Tsamarat al
+                        Muhimmah (ajaran yang berguna), Tuhfat al Nafis (Hadiah
+                        yang berharga), Silsilah Melayu dan Bugis, Syair suluh
+                        Pegawai, Syair Siti Sianah, Syair Sinar Gemala Mestika
+                        Alam. Gurindam Dua Belas termasuk dalam salah salah satu
+                        karya sastra puisi lama yang sangat terkenal hingga
+                        sekarang. Tetapi, kemunculan karya sastra gurindam mulai
+                        tersingkirkan perlahan-lahan sekitar tahun 1998-2000an,
+                        Hal ini disebabkan muncul karya sastra puisi baru atau
+                        modern yang lebih mendominasi perhatian masyarakat.
                     </p>
-                    <p className="flex w-full font-serif leading-7 prose text-justify md:text-3xl">
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tentu
-                        saja keinginan tersebut tidak dapat diterima oleh para
-                        pemuda Indonesia di Bagansiapi-api dan ini memicu
-                        ketegangan. Ketegangan tersebut pecah saat kelompok
-                        China ingin memperingati hari kebangsaannya dengan
-                        mengibarkan bendera China di tanah Indonesia. Kolonel
-                        Inf (Purn) Himron Saheman dalam bukunya, Perjuangan
-                        Tiada Mengenal Akhir, menuliskan, peringatan hari
-                        kebangsaan dengan mengibarkan bendera China telah
-                        disepakati, warga Tiongkok berjanji untuk tidak memasang
-                        bendera China tanpa mengibarkan bendera merah putih.
-                        "Dengan pelanggaran tersebut, terjadilah pertengkaran
-                        mengakibatkan Kapitan China (Lu Cin Po) terbunuh, maka
-                        kerusuhan makin menjadi. Banyak rumah-rumah dibakar dan
-                        korban China dan Indonesia berjatuhan," Mendengar
-                        kekacauan pertumpahan darah dipicu pengibaran bendera
-                        China di Bagan tersebut, ditambah dengan berita
-                        mengatakan, China di sana memberontak, maka pimpinan
-                        tentara di Bengkalis dan Pekanbaru, segera meresponnya
-                        dengan mengirimkan bala bantuan.Wedana Bagansiapi-api,
-                        BA Mochtar cepat tanggap dengan menggelar pertemuan dan
-                        disepakati kedua belah pihak, China dan TKR bersedian
-                        berunding diselenggarakan di dekat Hotel Guan Guan. Di
-                        depan hotel ini, diadakan upacara perdamaian dengan
-                        kelompok China."Wedana BA Mochtar berpidato, sekarang
-                        kita sudah merdeka, dan kita di sini harus berjuang
-                        mempertahankan kemerdekaan tersebut. Di pihak China,
-                        berpidato Kapten China, "Diberitahukan bahwa warga
-                        Tionghoa bersedia membantu perjuangan bangsa Indonesia,"
-                        Pada tanggal 12 Maret 1946, masyarakat Cina di
-                        Bagansiapiapi mengibarkan bendera Kuo Min Tang tanpa
-                        berdampingan dengan bendera Merah Putih. 12 Maret
-                        merupakan salah satu hari besar Cina Nasionalis. Oleh
-                        karena itu mereka mengibarkan bendera Kuo Min Tang tanpa
-                        berdampingan dengan bendera merah putih. Tindakan
-                        sepihak orang-orang Cina itu menimbulkan keheranan
-                        sekaligus kemarahan para pemuda pribumi (Indonesia) yang
-                        tergabung dalam Front Perjuangan Rakyat Indonesia (FPRI)
-                        Bagansiapiapi. Bahkan anggota Tentara Keamanan Rakyat
-                        (TKR) marah melihat perbuatan masyarakat Cina.
-                        Masyarakat pribumi menilai bahwa tindakan sepihak yang
-                        dilakukan orang-orang Cina itu adalah suatu pelecehan
-                        terhadap kedaulatan pemerintah Republik Indonesia.
-                        Sementara itu disekitar Parit Tangko dan simpang Tukang
-                        Besi telah terjadi perang sosoh antara pejuang rakyat
-                        dari jawa (bagan jawa sekarang) dibawah pimpinan Amat
-                        Mirah mendapat instruksi dari komandan FPRI ,
-                        Maswiryodiharjo, untuk menurunkan bendera-bendera Kuo
-                        Min Tang dari rumah orang-orang Cina disekitar tempat
-                        itu, yaitu dari Parit Tangko sampai Simpang Tukang Besi.
-                        Amat Mirah meneruskan berita ini keanak buahnya. Pasukan
-                        Amat Mirah mendapat tambahan pasukan sekitar sepuluh
-                        orang dari kota Bagan Siapi-api, yang berasal dari jalan
-                        Siakap (jalan Siak sekarang), dan dari daerah Bagan
-                        Hulu. Pasukan gabungan dari kampung jawa dan
-                        Bagansiapiapi ini melaksanakan perintah komandan FPRI
-                        untuk menurunkan bendera Kuo Min Tang dari rumah
-                        orang-orang Cina. Tindakan Amat Mirah dan pasukannya ini
-                        mendapat perlawanan sengit terhadap orang-orang Cina,
-                        mereka mengerahkan pasukan dengan jumlah yang lebih
-                        besar, mereka mengunakan senjata tajam seperti tempuling
-                        (tombak yang matanya bercabang), tombak, pedang, dan
-                        lain-lain. Dalam waktu relatif singkat pasukan Amat
-                        Mirah dapat dikalahkan oeh orang-orang Cina. Sebagian
-                        besar anggota pasukan Amat Mirah tewas dalam pertempuran
-                        sosoh yang terjadi disekitar Parit Tangko dan simpang
-                        Tukang Besi, tak kurang dari enam belas orang yang tewas
-                        dalam perag sosoh. Setelah damai, seluruh warga China
-                        bersedia kerjasama membantu perjuangan Indonesia.
-                        Bantuan yang diberikan berupa uang dan barang-barang
-                        diperlukan untuk perjuangan serta ada pula yang membantu
-                        dengan memberikan dukungan moril atau apa saja dapat
-                        kobarkan semangat perjuangan.
+                    <p className="font-serif antialiased leading-7 prose text-justify md:text-3xl md:prose-2xl">
+                        <ol>
+                            <li className="font-bold">
+                                Ini gurindam pasal yang pertama
+                            </li>
+                            &nbsp;&nbsp;&nbsp;&nbsp;Barang siapa tiada memegang
+                            agama, sekali-kali tiada boleh dibilangkan nama.
+                            Barang siapa mengenal yang empat, maka beliau itulah
+                            orang ma'rifat Barang siapa mengenal Allah, suruh
+                            dan tegahnya tiada beliau menyalah. Barang siapa
+                            mengenal diri, maka telah mengenal akan Tuhan yang
+                            bahari. Barang siapa mengenal dunia, tahulah beliau
+                            barang yang terpedaya. Barang siapa mengenal
+                            akhirat, tahulah beliau dunia mudarat. <br />
+                            <li>Ini gurindam pasal yang kedua</li>
+                            &nbsp;&nbsp;&nbsp;&nbsp;Barang siapa mengenal yang
+                            tersebut, tahulah beliau definisi takut. Barang
+                            siapa meninggalkan sembahyang, seperti rumah tiada
+                            bertiang. Barang siapa meninggalkan puasa, tidaklah
+                            mendapat dua temasya. Barang siapa meninggalkan
+                            zakat, tiadalah hartanya beroleh berkat. Barang
+                            siapa meninggalkan haji, tiadalah beliau
+                            menyempurnakan akad.
+                            <br />
+                            <li>Ini gurindam pasal yang ketiga</li>
+                            &nbsp;&nbsp;&nbsp;&nbsp;Apabila terpelihara mata,
+                            sedikitlah cita-cita. Apabila terpelihara kuping,
+                            khabar yang jahat tiadalah damping. Apabila
+                            terpelihara lidah, nescaya dapat daripadanya arti.
+                            Bersungguh-sungguh engkau memeliharakan tangan,
+                            daripada segala berat dan ringan. Apabila perut
+                            terlalu penuh, keluarlah fi'il yang tiada senonoh.
+                            Anggota tengah hendaklah ingat, di situlah jumlah
+                            orang yang hilang semangat Hendaklah peliharakan
+                            kaki, daripada berlanjut yang membawa rugi.
+                            <br />
+                            <li>Ini gurindam pasal yang keempat</li>
+                        </ol>
+                        Hati kerajaan di dalam tubuh, kalau zalim segala anggota
+                        pun roboh. Apabila dengki sudah bertanah, datanglah
+                        daripadanya beberapa anak panah. Mengumpat dan memuji
+                        hendaklah pikir, di situlah jumlah orang yang
+                        tergelincir. Pekerjaan marah jangan dibela, nanti hilang
+                        daya upaya di kepala. Jika sedikitpun berbuat bohong,
+                        boleh diumpamakan mulutnya itu pekong. Tanda orang yang
+                        amat celaka, keliru dirinya tiada beliau sangka. Bakhil
+                        jangan diberi singgah, itupun perampok yang amat gagah.
+                        Barang siapa yang sudah besar, janganlah kebaikan budi
+                        pekertinya membuat kasar. Barang siapa perkataan kotor,
+                        mulutnya itu umpama ketur. Di mana tahu salah diri, jika
+                        tidak orang lain yang berperi.
+                        <br />
+                        Ini gurindam pasal yang kelima
+                        <br />
+                        Jika akan mengenal orang berbangsa, lihat kepada budi
+                        dan bahasa, Jika akan mengenal orang yang berbahagia,
+                        sangat memeliharakan yang sia-sia. Jika akan mengenal
+                        orang mulia, lihatlah kepada kebaikan budi pekerti
+                        beliau. Jika akan mengenal orang yang berilmu, menanti
+                        keterangan dan berlatih tiadalah jemu. Jika akan
+                        mengenal orang yang berakal, di dalam dunia mengambil
+                        bekal. Jika akan mengenal orang yang baik perangai,
+                        lihat pada ketika bercampur dengan orang ramai.
+                        <br />
+                        Ini gurindam pasal yang keenam
+                        <br />
+                        Cahari olehmu akan sahabat, yang boleh menjadi obat.
+                        Cahari olehmu akan guru, yang boleh tahukan tiap seteru.
+                        Cahari olehmu akan isteri, yang boleh menyerahkan diri.
+                        Cahari olehmu akan kawan, pilih segala orang yang
+                        setiawan. Cahari olehmu akan abdi, yang tidak kekurangan
+                        baik sedikit budi.
+                        <br />
+                        Ini Gurindam pasal yang ketujuh
+                        <br />
+                        Apabila jumlah berkata-kata, di situlah jalan masuk
+                        dusta. Apabila jumlah berlebih-lebihan suka, itulah
+                        tanda hampir sedih. Apabila kita kurang siasat, itulah
+                        tanda pekerjaan akan sesat. Apabila anak tidak dilatih,
+                        jika luhur bapanya letih. Apabila jumlah mencela orang,
+                        itulah tanda dirinya kurang. Apabila orang yang jumlah
+                        tidur, sia-sia sahajalah umur. Apabila mendengar akan
+                        khabar, menerimanya itu hendaklah sabar. Apabila
+                        menengar akan aduan, membicarakannya itu hendaklah
+                        cemburuan. Apabila perkataan yang lemah-lembut, lekaslah
+                        segala orang mengikut. Apabila perkataan yang amat
+                        kasar, lekaslah orang sekalian gusar. Apabila pekerjaan
+                        yang amat benar, tidak boleh orang berbuat onar.
+                        <br />
+                        Ini gurindam pasal yang kedelapan
+                        <br />
+                        Barang siapa khianat akan dirinya, apalagi kepada
+                        lainnya. Kepada dirinya beliau aniaya, orang itu jangan
+                        engkau percaya. Lidah yang suka membenarkan dirinya,
+                        daripada yang lain dapat kealpaannya. Daripada memuji
+                        diri hendaklah sabar, biar pada orang datangnya khabar.
+                        Orang yang suka menampakkan jasa, setengah daripada
+                        syirik mengaku kuasa. Kejahatan diri sembunyikan,
+                        kegunaan diri diamkan. Keaiban orang jangan dibuka,
+                        keaiban diri hendaklah sangka.
+                        <br />
+                        Ini gurindam pasal yang kesembilan
+                        <br /> Tahu pekerjaan tak baik, tetapi dikerjakan,
+                        bukannya manusia yaituiah syaitan. Kejahatan seorang
+                        perempuan tua, itulah iblis punya penggawa. Kepada
+                        segaia hamba-hamba raja, di situlah syaitan tempatnya
+                        manja. Kebanyakan orang yang muda-muda, di situlah
+                        syaitan tempat berkuda. Perkumpulan laki-laki dengan
+                        perempuan, di situlah syaitan punya jamuan. Adapun orang
+                        tua yang hemat, syaitan tak suka membuat sahabat Jika
+                        orang muda kuat berguru, dengan syaitan sah berseteru.
+                        <br />
+                        Ini gurindam pasal yang kesepuluh
+                        <br /> Dengan bapak jangan durhaka supaya Allah tidak
+                        murka. Dengan ibu hendaklah hormat supaya badan dapat
+                        selamat. Dengan anak janganlah tidak ingat supaya dapat
+                        naik ke tengah balai. Dengan istri dan gundik janganlah
+                        alpa supaya kemaluan jangan menerpa. Dengan kawan
+                        hendaklah tidak sewenang-wenang supaya tangannya sah
+                        kapil.
+                        <br />
+                        Ini gurindam pasal yang kesebelas
+                        <br /> Hendaklah berjasa, kepada yang sebangsa.
+                        Hendaklah sah kepala, buang perangai yang keliru.
+                        Hendaklah memegang amanat, buanglah khianat. Akan marah,
+                        dahulukan hujjah. Akan dimalui, jangan memalui. Akan
+                        ramai, murahkan perangai.
+                        <br />
+                        Ini gurindam pasal yang kedua belas
+                        <br />
+                        Raja mufakat dengan menteri, seperti kebun berpagarkan
+                        duri. Betul hati kepada raja, tanda sah tanpa pola
+                        kerja. Hukum tidak sewenang-wenang atas rakyat, tanda
+                        raja beroleh inayat. Kasihkan orang yang berilmu, tanda
+                        rahmat atas dirimu. Hormat akan orang yang pandai, tanda
+                        mengenal kasa dan cindai. Ingatkan dirinya mati, itulah
+                        asal berbuat bakti. Kehidupan setealh didunia itu
+                        terlalu nyata, kepada hati yang tidak buta.
+                        <br />
+                        Nilai-Nilai Pendidikan Islam Pada Gurindam Dua Belas
+                        <br />
+                        Raja Ali Haji selain menjadikan Al-Qur’an dan Sunnah
+                        Nabi sebagai sumber utama, juga menyelaminya dari
+                        ajaran-ajaran tasawuf terutamanya lewat karya-karya Imam
+                        Al-Gazali merujuk kepada Ihya’ Ulumiddin dan Nasihat
+                        al-Mulk dan Kitab al-Arba’in fi Ushuliddin dan juga
+                        kitab Bidayah al-Hidayah. bait-bait dalam beberapa pasal
+                        dalam GDB memiliki keterkaitan dan sinkronisasi, dan ada
+                        jugak beberapa bait di dalam beberapa pasal yang
+                        kesannya tidak.
+                        <br />
+                        Nilai Pendidikan Ilahiyah dalam Gurindam Dua Belas
+                        <br />
+                        Menurut para ahli, nilai-nilai Pendidikan Islam yang
+                        bersifat Ilahiyah dibagi menjadi 8 bagian yakni iman,
+                        Islam, ihsan, taqwa, ikhlas, tawakkal, sabar dan syukur.
+                        Delapan nilai ini terdapat dalam GDB baik secara
+                        tersurat maupun tersirat dalam bait-baitnya, terlihat
+                        dari bait gurindam pasal satu yang berisi tentang
+                        urgensi agama dalam kehidupan. Nilai Ihsan dalam GDB
+                        terlihat pada pasal ke tiga. Dan nilai taqwa dalam GDB
+                        tergambar jelas dalam pasal 2, 3, dan 4. Dan Nilai sabar
+                        juga banyak ditemukan dalam GDB, terutama tersirat di
+                        pasal 3, 4, 7, dan 8. Menurut Raja Ali Haji manusia
+                        harus bersabar terhadap godaan yang datang dalam
+                        kehidupan dengan cara menjaga hati dan panca indra dari
+                        perbuatan tercela.
+                        <br />
+                        Nilai Pendidikan Insaniyah dalam Gurindam Dua Belas
+                        <br />
+                        dalam GDB juga terkandung nilainilai pendidikan
+                        insaniyah. Nilainilai pendidikan insaniyah mencakup
+                        nilai silaturrahmi, ukhuwwah, al-musawah, al-adalah,
+                        khuznuzzan, tawadlu, al-wafa, insyirah, al-amanah,
+                        iffah, qawamiyah, dan munfiqun. seseorang tidak boleh
+                        membuka aib orang lain yang bisa menjatuhkan harga diri
+                        dan kehormatannya sebagaimana dapat dilihat dalam GDB
+                        pasal 8. Dan nilai silaturrahmi juga dipesankan melalui
+                        sikap menghormati orang tua, guru, dan orang lain
+                        sebagaimana terkandung dalam pasal 10, dan Nilai
+                        silaturrahmi juga terlihat dari pasal 11. nilai ukhuwwah
+                        terlihat dari pasal 5, 6, dan 7 dalam GDB. nilai
+                        keadilan atau al-adalah terlihat dalam GDB pada pasal 8,
+                        10, dan 12. Khuznuzzan dalam GDB tercermin dalam pasal 7
+                        dimana setiap orang apabila menerima suatu kabar atau
+                        berita hendaknya diperiksa terlebih dahulu keabsahan
+                        berita tersebut. Ada tiga faktor yang menyebabkan
+                        mengapa nilai-nilai pendidikan ilahiyah lebih dominan
+                        dalam GDB Raja Ali Haji yakni faktor sosiologis,
+                        religius, dan latar belakang intelektual. karya sastra
+                        yang sangat terkenal dalam kesusteraan melayu ini ialah
+                        Gurindam Dua Belas (yang selajutnya disingkat menjadi
+                        GDB) yang di karang oleh Raja Ali Haji. Isi Naskah GDB
+                        memuat nasehat atau petuah-petuah dalam menjalani
+                        kehidupan di dunia ini untuk mendapatkan ridha dari
+                        Allah swt. Naskah GDB termasuk dalam kategori “sy‟ir
+                        al-Irsyadi” atau puisi didaktik. GDB ditulis oleh Raja
+                        Ali Haji, pada tanggal 23 Rajab 1263 H atau 1847 M di
+                        Pulau Penyengat, Riau. Kala itu Raja Ali Haji berusia 38
+                        tahun. Kandungan naskah berisi pelajaran dasar tasawuf
+                        yang meliputi ilmu syariat, hakikat, dan makrifat. Tahun
+                        terbit GDB pada 1854 M.
                     </p>
                 </div>
                 <footer className="py-3 text-center text-gray-400 border-t border-gray-300 md:py-8">
-                    © 2021-2022 Gusti Riza Pradana
+                    © 2022-2023 Gusti Riza Pradana
                 </footer>
             </div>
         </div>
