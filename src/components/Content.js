@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Content = () => {
     return (
         <div className="w-full p-2 select-none h-max md:p-10 bg-gray-300/80">
-            <div className="w-full px-4 leading-relaxed bg-white rounded shadow-xl shadow-gray-400 h-max md:px-10 ">
+            <div className="w-full px-4 mt-16 leading-relaxed bg-white rounded shadow-xl md:mt-0 shadow-gray-400 h-max md:px-10 ">
                 <div className="pt-8 pb-2 text-2xl antialiased font-semibold text-center md:text-5xl">
                     GURINDAM DUA BELAS
                 </div>
