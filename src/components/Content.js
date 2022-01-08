@@ -40,7 +40,7 @@ const Content = () => {
                         perjuangan mempertahankan kemerdekaan dari penjajahan
                         Belanda, 1945-1949. Itu adalah kejadian Bagansiapi-api
                         Lautan Api. Bedanya, jika Bandung Lautan Api merupakan
-                        upaya bumi hangus prajurit Divisi Siliwangi saat long
+                        upaya bumi hangus prajurit divisi Siliwangi saat long
                         march ke Jawa Tengah dan Yogyakarta, maka Bagansiapi-api
                         Lautan Api antara pejuang Tentara Keamanan Rakyat (TKR)
                         dengan para kelompok China. Setelah Kemerdekaan

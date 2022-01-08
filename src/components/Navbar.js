@@ -70,8 +70,6 @@ const Navbar = () => {
                 </div>
             </div>
         </div>
-        // </Fragment>
-        // </BrowserRouter>
     );
 };
 
