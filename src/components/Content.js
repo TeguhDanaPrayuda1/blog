@@ -34,34 +34,34 @@ const Content = () => {
                         />
                     </div>
                     <p className="flex font-serif antialiased leading-7 prose text-justify md:text-3xl md:prose-2xl">
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gurindam Dua Belas
-                        merupakan salah satu puisi lama yang dtulis dengan
-                        menggunakan aksara arab melayu/jawi, Gurindam Dua Belas
-                        merupakan karya Raja Ali Haji yang sangat terkenal. Raja
-                        Ali Haji diperkirakan hidup antara tahun 1808-1873. Ia
-                        adalah seorang bangsawan, sastrawan, sejarawan,
-                        budayawan, ulama, dll. Ayahnya, Raja Ahmad, adalah
-                        seorang penasihat Kerajaan dan ibunya, Encik Hamidah
-                        binti Panglima Selangor, adalah putri Raja Selangor.
-                        Sedangkan kakeknya bernama Raja Haji Fisabillih.
-                        Berbagai ilmu, seperti agama Islam, adat-istiadat, dan
-                        bahasa Melayu dan Arab, telah dipelajari oleh Raja Ali
-                        Haji. Bakatnya yang menonjol adalah menulis dan ia
-                        sangat berminat pada bidang sejarah, adat-istiadat,
-                        pemerintahan, dan syair. Setelah dewasa, Raja Ali Haji
-                        menuangkan semua yang diketahuinya ke dalam
-                        tulisan-tulisan yang isinya beragam. Karyanya antara
-                        lain Gurindam Dua Belas, Kitab Pengetahuan Bahasa,
-                        Bustanulkatibin (Taman para penulis), Tsamarat al
-                        Muhimmah (ajaran yang berguna), Tuhfat al Nafis (Hadiah
-                        yang berharga), Silsilah Melayu dan Bugis, Syair suluh
-                        Pegawai, Syair Siti Sianah, Syair Sinar Gemala Mestika
-                        Alam. Gurindam Dua Belas termasuk dalam salah salah satu
-                        karya sastra puisi lama yang sangat terkenal hingga
-                        sekarang. Tetapi, kemunculan karya sastra gurindam mulai
-                        tersingkirkan perlahan-lahan sekitar tahun 1998-2000an,
-                        Hal ini disebabkan muncul karya sastra puisi baru atau
-                        modern yang lebih mendominasi perhatian masyarakat.
+                        &nbsp;&nbsp;&nbsp;Gurindam Dua Belas merupakan salah
+                        satu puisi lama yang dtulis dengan menggunakan aksara
+                        arab melayu/jawi, Gurindam Dua Belas merupakan karya
+                        Raja Ali Haji yang sangat terkenal. Raja Ali Haji
+                        diperkirakan hidup antara tahun 1808-1873. Ia adalah
+                        seorang bangsawan, sastrawan, sejarawan, budayawan,
+                        ulama, dll. Ayahnya, Raja Ahmad, adalah seorang
+                        penasihat Kerajaan dan ibunya, Encik Hamidah binti
+                        Panglima Selangor, adalah putri Raja Selangor. Sedangkan
+                        kakeknya bernama Raja Haji Fisabillih. Berbagai ilmu,
+                        seperti agama Islam, adat-istiadat, dan bahasa Melayu
+                        dan Arab, telah dipelajari oleh Raja Ali Haji. Bakatnya
+                        yang menonjol adalah menulis dan ia sangat berminat pada
+                        bidang sejarah, adat-istiadat, pemerintahan, dan syair.
+                        Setelah dewasa, Raja Ali Haji menuangkan semua yang
+                        diketahuinya ke dalam tulisan-tulisan yang isinya
+                        beragam. Karyanya antara lain Gurindam Dua Belas, Kitab
+                        Pengetahuan Bahasa, Bustanulkatibin (Taman para
+                        penulis), Tsamarat al Muhimmah (ajaran yang berguna),
+                        Tuhfat al Nafis (Hadiah yang berharga), Silsilah Melayu
+                        dan Bugis, Syair suluh Pegawai, Syair Siti Sianah, Syair
+                        Sinar Gemala Mestika Alam. Gurindam Dua Belas termasuk
+                        dalam salah salah satu karya sastra puisi lama yang
+                        sangat terkenal hingga sekarang. Tetapi, kemunculan
+                        karya sastra gurindam mulai tersingkirkan perlahan-lahan
+                        sekitar tahun 1998-2000an, Hal ini disebabkan muncul
+                        karya sastra puisi baru atau modern yang lebih
+                        mendominasi perhatian masyarakat.
                     </p>
                     <p className="font-serif antialiased leading-7 prose text-justify md:text-3xl md:prose-2xl">
                         <ol>
@@ -77,7 +77,9 @@ const Content = () => {
                             mengenal dunia, tahulah beliau barang yang
                             terpedaya. Barang siapa mengenal akhirat, tahulah
                             beliau dunia mudarat.
-                            <li>Ini gurindam pasal yang kedua</li>
+                            <li className="font-bold">
+                                Ini gurindam pasal yang kedua
+                            </li>
                             Barang siapa mengenal yang tersebut, tahulah beliau
                             definisi takut. Barang siapa meninggalkan
                             sembahyang, seperti rumah tiada bertiang. Barang
@@ -85,7 +87,9 @@ const Content = () => {
                             temasya. Barang siapa meninggalkan zakat, tiadalah
                             hartanya beroleh berkat. Barang siapa meninggalkan
                             haji, tiadalah beliau menyempurnakan akad.
-                            <li>Ini gurindam pasal yang ketiga</li>
+                            <li className="font-bold">
+                                Ini gurindam pasal yang ketiga
+                            </li>
                             Apabila terpelihara mata, sedikitlah cita-cita.
                             Apabila terpelihara kuping, khabar yang jahat
                             tiadalah damping. Apabila terpelihara lidah, nescaya
@@ -96,7 +100,9 @@ const Content = () => {
                             di situlah jumlah orang yang hilang semangat
                             Hendaklah peliharakan kaki, daripada berlanjut yang
                             membawa rugi.
-                            <li>Ini gurindam pasal yang keempat</li>
+                            <li className="font-bold">
+                                Ini gurindam pasal yang keempat
+                            </li>
                             Hati kerajaan di dalam tubuh, kalau zalim segala
                             anggota pun roboh. Apabila dengki sudah bertanah,
                             datanglah daripadanya beberapa anak panah. Mengumpat
@@ -111,7 +117,9 @@ const Content = () => {
                             membuat kasar. Barang siapa perkataan kotor,
                             mulutnya itu umpama ketur. Di mana tahu salah diri,
                             jika tidak orang lain yang berperi.
-                            <li>Ini gurindam pasal yang kelima</li>
+                            <li className="font-bold">
+                                Ini gurindam pasal yang kelima
+                            </li>
                             Jika akan mengenal orang berbangsa, lihat kepada
                             budi dan bahasa, Jika akan mengenal orang yang
                             berbahagia, sangat memeliharakan yang sia-sia. Jika
@@ -122,29 +130,35 @@ const Content = () => {
                             dalam dunia mengambil bekal. Jika akan mengenal
                             orang yang baik perangai, lihat pada ketika
                             bercampur dengan orang ramai.
-                            <li>Ini gurindam pasal yang keenam</li> Cahari
-                            olehmu akan sahabat, yang boleh menjadi obat. Cahari
-                            olehmu akan guru, yang boleh tahukan tiap seteru.
-                            Cahari olehmu akan isteri, yang boleh menyerahkan
-                            diri. Cahari olehmu akan kawan, pilih segala orang
-                            yang setiawan. Cahari olehmu akan abdi, yang tidak
-                            kekurangan baik sedikit budi.
-                            <li>Ini Gurindam pasal yang ketujuh</li> Apabila
-                            jumlah berkata-kata, di situlah jalan masuk dusta.
-                            Apabila jumlah berlebih-lebihan suka, itulah tanda
-                            hampir sedih. Apabila kita kurang siasat, itulah
-                            tanda pekerjaan akan sesat. Apabila anak tidak
-                            dilatih, jika luhur bapanya letih. Apabila jumlah
-                            mencela orang, itulah tanda dirinya kurang. Apabila
-                            orang yang jumlah tidur, sia-sia sahajalah umur.
-                            Apabila mendengar akan khabar, menerimanya itu
+                            <li className="font-bold">
+                                Ini gurindam pasal yang keenam
+                            </li>{' '}
+                            Cahari olehmu akan sahabat, yang boleh menjadi obat.
+                            Cahari olehmu akan guru, yang boleh tahukan tiap
+                            seteru. Cahari olehmu akan isteri, yang boleh
+                            menyerahkan diri. Cahari olehmu akan kawan, pilih
+                            segala orang yang setiawan. Cahari olehmu akan abdi,
+                            yang tidak kekurangan baik sedikit budi.
+                            <li className="font-bold">
+                                Ini Gurindam pasal yang ketujuh
+                            </li>{' '}
+                            Apabila jumlah berkata-kata, di situlah jalan masuk
+                            dusta. Apabila jumlah berlebih-lebihan suka, itulah
+                            tanda hampir sedih. Apabila kita kurang siasat,
+                            itulah tanda pekerjaan akan sesat. Apabila anak
+                            tidak dilatih, jika luhur bapanya letih. Apabila
+                            jumlah mencela orang, itulah tanda dirinya kurang.
+                            Apabila orang yang jumlah tidur, sia-sia sahajalah
+                            umur. Apabila mendengar akan khabar, menerimanya itu
                             hendaklah sabar. Apabila menengar akan aduan,
                             membicarakannya itu hendaklah cemburuan. Apabila
                             perkataan yang lemah-lembut, lekaslah segala orang
                             mengikut. Apabila perkataan yang amat kasar,
                             lekaslah orang sekalian gusar. Apabila pekerjaan
                             yang amat benar, tidak boleh orang berbuat onar.
-                            <li>Ini gurindam pasal yang kedelapan</li>
+                            <li className="font-bold">
+                                Ini gurindam pasal yang kedelapan
+                            </li>
                             Barang siapa khianat akan dirinya, apalagi kepada
                             lainnya. Kepada dirinya beliau aniaya, orang itu
                             jangan engkau percaya. Lidah yang suka membenarkan
@@ -155,7 +169,9 @@ const Content = () => {
                             Kejahatan diri sembunyikan, kegunaan diri diamkan.
                             Keaiban orang jangan dibuka, keaiban diri hendaklah
                             sangka.
-                            <li>Ini gurindam pasal yang kesembilan</li>
+                            <li className="font-bold">
+                                Ini gurindam pasal yang kesembilan
+                            </li>
                             Tahu pekerjaan tak baik, tetapi dikerjakan, bukannya
                             manusia yaituiah syaitan. Kejahatan seorang
                             perempuan tua, itulah iblis punya penggawa. Kepada
@@ -166,7 +182,9 @@ const Content = () => {
                             jamuan. Adapun orang tua yang hemat, syaitan tak
                             suka membuat sahabat Jika orang muda kuat berguru,
                             dengan syaitan sah berseteru.
-                            <li>Ini gurindam pasal yang kesepuluh</li>
+                            <li className="font-bold">
+                                Ini gurindam pasal yang kesepuluh
+                            </li>
                             Dengan bapak jangan durhaka supaya Allah tidak
                             murka. Dengan ibu hendaklah hormat supaya badan
                             dapat selamat. Dengan anak janganlah tidak ingat
@@ -174,13 +192,17 @@ const Content = () => {
                             gundik janganlah alpa supaya kemaluan jangan
                             menerpa. Dengan kawan hendaklah tidak
                             sewenang-wenang supaya tangannya sah kapil.
-                            <li>Ini gurindam pasal yang kesebelas</li>
+                            <li className="font-bold">
+                                Ini gurindam pasal yang kesebelas
+                            </li>
                             Hendaklah berjasa, kepada yang sebangsa. Hendaklah
                             sah kepala, buang perangai yang keliru. Hendaklah
                             memegang amanat, buanglah khianat. Akan marah,
                             dahulukan hujjah. Akan dimalui, jangan memalui. Akan
                             ramai, murahkan perangai.
-                            <li>Ini gurindam pasal yang kedua belas</li>
+                            <li className="font-bold">
+                                Ini gurindam pasal yang kedua belas
+                            </li>
                             Raja mufakat dengan menteri, seperti kebun
                             berpagarkan duri. Betul hati kepada raja, tanda sah
                             tanpa pola kerja. Hukum tidak sewenang-wenang atas
@@ -189,8 +211,14 @@ const Content = () => {
                             orang yang pandai, tanda mengenal kasa dan cindai.
                             Ingatkan dirinya mati, itulah asal berbuat bakti.
                             Kehidupan setealh didunia itu terlalu nyata, kepada
-                            hati yang tidak buta. Nilai-Nilai Pendidikan Islam
-                            Pada Gurindam Dua Belas Raja Ali Haji selain
+                            hati yang tidak buta.
+                        </ol>
+                        <ul>
+                            <li className="font-bold">
+                                Nilai-Nilai Pendidikan Islam Pada Gurindam Dua
+                                Belas
+                            </li>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Raja Ali Haji selain
                             menjadikan Al-Qur’an dan Sunnah Nabi sebagai sumber
                             utama, juga menyelaminya dari ajaran-ajaran tasawuf
                             terutamanya lewat karya-karya Imam Al-Gazali merujuk
@@ -200,59 +228,57 @@ const Content = () => {
                             memiliki keterkaitan dan sinkronisasi, dan ada jugak
                             beberapa bait di dalam beberapa pasal yang kesannya
                             tidak.
-                        </ol>
-                        <ul>
-                            <li>
+                            <li className="font-bold">
                                 Nilai Pendidikan Ilahiyah dalam Gurindam Dua
                                 Belas
                             </li>
-                            Menurut para ahli, nilai-nilai Pendidikan Islam yang
-                            bersifat Ilahiyah dibagi menjadi 8 bagian yakni
-                            iman, Islam, ihsan, taqwa, ikhlas, tawakkal, sabar
-                            dan syukur. Delapan nilai ini terdapat dalam GDB
-                            baik secara tersurat maupun tersirat dalam
-                            bait-baitnya, terlihat dari bait gurindam pasal satu
-                            yang berisi tentang urgensi agama dalam kehidupan.
-                            Nilai Ihsan dalam GDB terlihat pada pasal ke tiga.
-                            Dan nilai taqwa dalam GDB tergambar jelas dalam
-                            pasal 2, 3, dan 4. Dan Nilai sabar juga banyak
-                            ditemukan dalam GDB, terutama tersirat di pasal 3,
-                            4, 7, dan 8. Menurut Raja Ali Haji manusia harus
-                            bersabar terhadap godaan yang datang dalam kehidupan
-                            dengan cara menjaga hati dan panca indra dari
-                            perbuatan tercela.
-                            <li>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Menurut para ahli,
+                            nilai-nilai Pendidikan Islam yang bersifat Ilahiyah
+                            dibagi menjadi 8 bagian yakni iman, Islam, ihsan,
+                            taqwa, ikhlas, tawakkal, sabar dan syukur. Delapan
+                            nilai ini terdapat dalam GDB baik secara tersurat
+                            maupun tersirat dalam bait-baitnya, terlihat dari
+                            bait gurindam pasal satu yang berisi tentang urgensi
+                            agama dalam kehidupan. Nilai Ihsan dalam GDB
+                            terlihat pada pasal ke tiga. Dan nilai taqwa dalam
+                            GDB tergambar jelas dalam pasal 2, 3, dan 4. Dan
+                            Nilai sabar juga banyak ditemukan dalam GDB,
+                            terutama tersirat di pasal 3, 4, 7, dan 8. Menurut
+                            Raja Ali Haji manusia harus bersabar terhadap godaan
+                            yang datang dalam kehidupan dengan cara menjaga hati
+                            dan panca indra dari perbuatan tercela.
+                            <li className="font-bold">
                                 Nilai Pendidikan Insaniyah dalam Gurindam Dua
                                 Belas
                             </li>
-                            dalam GDB juga terkandung nilainilai pendidikan
-                            insaniyah. Nilainilai pendidikan insaniyah mencakup
-                            nilai silaturrahmi, ukhuwwah, al-musawah, al-adalah,
-                            khuznuzzan, tawadlu, al-wafa, insyirah, al-amanah,
-                            iffah, qawamiyah, dan munfiqun. seseorang tidak
-                            boleh membuka aib orang lain yang bisa menjatuhkan
-                            harga diri dan kehormatannya sebagaimana dapat
-                            dilihat dalam GDB pasal 8. Dan nilai silaturrahmi
-                            juga dipesankan melalui sikap menghormati orang tua,
-                            guru, dan orang lain sebagaimana terkandung dalam
-                            pasal 10, dan Nilai silaturrahmi juga terlihat dari
-                            pasal 11. nilai ukhuwwah terlihat dari pasal 5, 6,
-                            dan 7 dalam GDB. nilai keadilan atau al-adalah
-                            terlihat dalam GDB pada pasal 8, 10, dan 12.
-                            Khuznuzzan dalam GDB tercermin dalam pasal 7 dimana
-                            setiap orang apabila menerima suatu kabar atau
-                            berita hendaknya diperiksa terlebih dahulu keabsahan
-                            berita tersebut. Ada tiga faktor yang menyebabkan
-                            mengapa nilai-nilai pendidikan ilahiyah lebih
-                            dominan dalam GDB Raja Ali Haji yakni faktor
-                            sosiologis, religius, dan latar belakang
-                            intelektual. karya sastra yang sangat terkenal dalam
-                            kesusteraan melayu ini ialah Gurindam Dua Belas
-                            (yang selajutnya disingkat menjadi GDB) yang di
-                            karang oleh Raja Ali Haji. Isi Naskah GDB memuat
-                            nasehat atau petuah-petuah dalam menjalani kehidupan
-                            di dunia ini untuk mendapatkan ridha dari Allah swt.
-                            Naskah GDB termasuk dalam kategori “sy‟ir
+                            &nbsp;&nbsp;dalam GDB juga terkandung nilainilai
+                            pendidikan insaniyah. Nilainilai pendidikan
+                            insaniyah mencakup nilai silaturrahmi, ukhuwwah,
+                            al-musawah, al-adalah, khuznuzzan, tawadlu, al-wafa,
+                            insyirah, al-amanah, iffah, qawamiyah, dan munfiqun.
+                            seseorang tidak boleh membuka aib orang lain yang
+                            bisa menjatuhkan harga diri dan kehormatannya
+                            sebagaimana dapat dilihat dalam GDB pasal 8. Dan
+                            nilai silaturrahmi juga dipesankan melalui sikap
+                            menghormati orang tua, guru, dan orang lain
+                            sebagaimana terkandung dalam pasal 10, dan Nilai
+                            silaturrahmi juga terlihat dari pasal 11. nilai
+                            ukhuwwah terlihat dari pasal 5, 6, dan 7 dalam GDB.
+                            nilai keadilan atau al-adalah terlihat dalam GDB
+                            pada pasal 8, 10, dan 12. Khuznuzzan dalam GDB
+                            tercermin dalam pasal 7 dimana setiap orang apabila
+                            menerima suatu kabar atau berita hendaknya diperiksa
+                            terlebih dahulu keabsahan berita tersebut. Ada tiga
+                            faktor yang menyebabkan mengapa nilai-nilai
+                            pendidikan ilahiyah lebih dominan dalam GDB Raja Ali
+                            Haji yakni faktor sosiologis, religius, dan latar
+                            belakang intelektual. karya sastra yang sangat
+                            terkenal dalam kesusteraan melayu ini ialah Gurindam
+                            Dua Belas (yang selajutnya disingkat menjadi GDB)
+                            yang di karang oleh Raja Ali Haji. Isi Naskah GDB
+                            memuat nasehat atau petuah-petuah dalam menjalani
+                            kehidupan di dunia ini untuk mendapatkan ridha dari
+                            Allah swt. Naskah GDB termasuk dalam kategori “sy‟ir
                             al-Irsyadi” atau puisi didaktik. GDB ditulis oleh
                             Raja Ali Haji, pada tanggal 23 Rajab 1263 H atau
                             1847 M di Pulau Penyengat, Riau. Kala itu Raja Ali
